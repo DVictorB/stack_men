@@ -1,5 +1,5 @@
 FROM node:latest
-RUN git clone https://github.com/DVictorB/DV.Balboa.git .
+RUN git clone https://github.com/DVictorB/stack_men.git .
 WORKDIR /src
 COPY package*.json ./
 RUN npm install
